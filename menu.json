@@ -1,0 +1,478 @@
+{
+  "bears": {
+    "2026-11-02": {
+      "mains": [
+        "Carne guisada with corn tortillas",
+        "Artisan chicken tenders with dinner roll",
+        "Ham & cheese deli sandwich"
+      ],
+      "sides": [
+        "Buttery mashed potatoes",
+        "Steamed broccoli"
+      ],
+      "fruit": [
+        "Assorted fresh fruit",
+        "Diced pears"
+      ]
+    },
+    "2026-11-03": {
+      "mains": [
+        "Hot & spicy boneless wings with dinner roll",
+        "Pizza crunchers",
+        "Shaker salad with garlic breadsticks"
+      ],
+      "sides": [
+        "Marinara sauce",
+        "Cheesy roasted zucchini",
+        "Baby carrots"
+      ],
+      "fruit": [
+        "Assorted fresh fruit",
+        "Mandarin oranges"
+      ]
+    },
+    "2026-11-04": {
+      "mains": [
+        "Walking taco with shredded cheese",
+        "Artisan chicken sandwich",
+        "Cheesy pull-aparts"
+      ],
+      "sides": [
+        "Marinara sauce",
+        "Lettuce & tomato salad",
+        "Ranch-style beans"
+      ],
+      "fruit": [
+        "Assorted fresh fruit",
+        "Pineapple tidbits"
+      ]
+    },
+    "2026-11-05": {
+      "mains": [
+        "Hamburger or cheeseburger",
+        "Bean & cheese burrito with cheese sauce",
+        "Oven-roasted turkey & cheese grab-and-go"
+      ],
+      "sides": [
+        "Emoji fries",
+        "Side salad"
+      ],
+      "fruit": [
+        "Fresh grapes",
+        "Fruit cocktail"
+      ]
+    },
+    "2026-11-06": {
+      "mains": [
+        "Stuffed crust pizza",
+        "Spicy chicken tenders with dinner roll",
+        "Sunbutter & jelly sandwich"
+      ],
+      "sides": [
+        "Baby carrots",
+        "Cucumber slices"
+      ],
+      "fruit": [
+        "Cherry mixed fruit",
+        "Assorted fresh fruit"
+      ]
+    },
+    "2026-11-09": {
+      "mains": [
+        "Pulled pork sandwich",
+        "Chicken poppers with dinner roll",
+        "Ham & cheese deli sandwich"
+      ],
+      "sides": [
+        "Corn on the cob",
+        "Cheesy broccoli"
+      ],
+      "fruit": [
+        "Assorted fresh fruit",
+        "Diced pears"
+      ]
+    },
+    "2026-11-10": {
+      "mains": [
+        "Chicken Alfredo pasta with garlic breadstick",
+        "Loaded baked potato with chicken fajitas & Tostitos",
+        "Club sandwich grab-and-go"
+      ],
+      "sides": [
+        "Tossed salad",
+        "Steamed cauliflower"
+      ],
+      "fruit": [
+        "Assorted fresh fruit",
+        "Mandarin oranges"
+      ]
+    },
+    "2026-11-11": {
+      "mains": [
+        "Frito pie with shredded cheese",
+        "Hot dog with baked chips",
+        "Chef salad with breadsticks"
+      ],
+      "sides": [
+        "Lettuce & tomato salad",
+        "Charro beans"
+      ],
+      "fruit": [
+        "Assorted fresh fruit",
+        "Pineapple tidbits"
+      ]
+    },
+    "2026-11-12": {
+      "mains": [
+        "Turkey & gravy with dinner rolls",
+        "Bean & cheese burrito with cheese sauce"
+      ],
+      "sides": [
+        "Buttery mashed potatoes",
+        "Seasoned green beans"
+      ],
+      "fruit": [
+        "Holiday pie",
+        "Assorted fresh fruit",
+        "100% fruit juice"
+      ]
+    },
+    "2026-11-13": {
+      "mains": [
+        "Pizzaboli bites",
+        "Artisan chicken tenders with dinner roll",
+        "Sunbutter & jelly sandwich"
+      ],
+      "sides": [
+        "Marinara sauce",
+        "Baby carrots",
+        "Cucumber slices"
+      ],
+      "fruit": [
+        "Cherry mixed fruit",
+        "Assorted fresh fruit"
+      ]
+    },
+    "2026-11-16": {
+      "mains": [
+        "Pizza & wings",
+        "Corn dog with Sun Chips"
+      ],
+      "sides": [
+        "Steamed broccoli",
+        "Baby carrots"
+      ],
+      "fruit": [
+        "Assorted fresh fruit",
+        "Diced pears"
+      ]
+    },
+    "2026-11-17": {
+      "mains": [
+        "Chicken & cheese crisp-ups",
+        "Hot dog with baked chips"
+      ],
+      "sides": [
+        "Refried beans",
+        "Lettuce & tomato salad"
+      ],
+      "fruit": [
+        "Assorted fresh fruit",
+        "Mandarin oranges"
+      ]
+    },
+    "2026-11-18": {
+      "mains": [
+        "Chicken smackers with dinner roll",
+        "Bean & cheese burrito with cheese sauce"
+      ],
+      "sides": [
+        "Baby carrots",
+        "Seasoned green beans"
+      ],
+      "fruit": [
+        "Pineapple tidbits",
+        "Assorted fruit cup"
+      ]
+    },
+    "2026-11-19": {
+      "mains": [
+        "Cheeseburger sliders"
+      ],
+      "sides": [
+        "Tater tots",
+        "California blend vegetables"
+      ],
+      "fruit": [
+        "Assorted fruit cups",
+        "100% fruit juice"
+      ]
+    },
+    "2026-11-20": {
+      "mains": [
+        "Cheesy pull-aparts"
+      ],
+      "sides": [
+        "Marinara sauce",
+        "Roasted zucchini",
+        "Golden corn"
+      ],
+      "fruit": [
+        "Craisins",
+        "Assorted fruit cups"
+      ]
+    },
+    "2026-11-30": {
+      "mains": [
+        "Artisan chicken tenders with dinner roll",
+        "Corn dog with Sun Chips"
+      ],
+      "sides": [
+        "Buttery mashed potatoes",
+        "Steamed broccoli"
+      ],
+      "fruit": [
+        "Assorted fruit cups",
+        "Diced pears"
+      ]
+    }
+  },
+  "tstem": {
+    "2026-11-02": {
+      "mains": [
+        "Carne guisada with corn tortillas",
+        "Artisan chicken tenders with dinner roll",
+        "Ham & cheese deli sandwich"
+      ],
+      "sides": [
+        "Buttery mashed potatoes",
+        "Steamed broccoli"
+      ],
+      "fruit": [
+        "Assorted fresh fruit",
+        "Diced pears"
+      ]
+    },
+    "2026-11-03": {
+      "mains": [
+        "Hot & spicy boneless wings with dinner roll",
+        "Pizza crunchers",
+        "Shaker salad with garlic breadsticks"
+      ],
+      "sides": [
+        "Marinara sauce",
+        "Cheesy roasted zucchini",
+        "Baby carrots"
+      ],
+      "fruit": [
+        "Assorted fresh fruit",
+        "Mandarin oranges"
+      ]
+    },
+    "2026-11-04": {
+      "mains": [
+        "Walking taco with shredded cheese",
+        "Artisan chicken sandwich",
+        "Cheesy pull-aparts"
+      ],
+      "sides": [
+        "Marinara sauce",
+        "Lettuce & tomato salad",
+        "Ranch-style beans"
+      ],
+      "fruit": [
+        "Assorted fresh fruit",
+        "Pineapple tidbits"
+      ]
+    },
+    "2026-11-05": {
+      "mains": [
+        "Hamburger or cheeseburger",
+        "Bean & cheese burrito with cheese sauce",
+        "Oven-roasted turkey & cheese grab-and-go"
+      ],
+      "sides": [
+        "Emoji fries",
+        "Side salad"
+      ],
+      "fruit": [
+        "Fresh grapes",
+        "Fruit cocktail"
+      ]
+    },
+    "2026-11-06": {
+      "mains": [
+        "Stuffed crust pizza",
+        "Spicy chicken tenders with dinner roll",
+        "Sunbutter & jelly sandwich"
+      ],
+      "sides": [
+        "Baby carrots",
+        "Cucumber slices"
+      ],
+      "fruit": [
+        "Cherry mixed fruit",
+        "Assorted fresh fruit"
+      ]
+    },
+    "2026-11-09": {
+      "mains": [
+        "Pulled pork sandwich",
+        "Chicken poppers with dinner roll",
+        "Ham & cheese deli sandwich"
+      ],
+      "sides": [
+        "Corn on the cob",
+        "Cheesy broccoli"
+      ],
+      "fruit": [
+        "Assorted fresh fruit",
+        "Diced pears"
+      ]
+    },
+    "2026-11-10": {
+      "mains": [
+        "Chicken Alfredo pasta with garlic breadstick",
+        "Loaded baked potato with chicken fajitas & Tostitos",
+        "Club sandwich grab-and-go"
+      ],
+      "sides": [
+        "Tossed salad",
+        "Steamed cauliflower"
+      ],
+      "fruit": [
+        "Assorted fresh fruit",
+        "Mandarin oranges"
+      ]
+    },
+    "2026-11-11": {
+      "mains": [
+        "Frito pie with shredded cheese",
+        "Hot dog with baked chips",
+        "Chef salad with breadsticks"
+      ],
+      "sides": [
+        "Lettuce & tomato salad",
+        "Charro beans"
+      ],
+      "fruit": [
+        "Assorted fresh fruit",
+        "Pineapple tidbits"
+      ]
+    },
+    "2026-11-12": {
+      "mains": [
+        "Turkey & gravy with dinner rolls",
+        "Bean & cheese burrito with cheese sauce"
+      ],
+      "sides": [
+        "Buttery mashed potatoes",
+        "Seasoned green beans"
+      ],
+      "fruit": [
+        "Holiday pie",
+        "Assorted fresh fruit",
+        "100% fruit juice"
+      ]
+    },
+    "2026-11-13": {
+      "mains": [
+        "Pizzaboli bites",
+        "Artisan chicken tenders with dinner roll",
+        "Sunbutter & jelly sandwich"
+      ],
+      "sides": [
+        "Marinara sauce",
+        "Baby carrots",
+        "Cucumber slices"
+      ],
+      "fruit": [
+        "Cherry mixed fruit",
+        "Assorted fresh fruit"
+      ]
+    },
+    "2026-11-16": {
+      "mains": [
+        "Pizza & wings",
+        "Corn dog with Sun Chips"
+      ],
+      "sides": [
+        "Steamed broccoli",
+        "Baby carrots"
+      ],
+      "fruit": [
+        "Assorted fresh fruit",
+        "Diced pears"
+      ]
+    },
+    "2026-11-17": {
+      "mains": [
+        "Chicken & cheese crisp-ups",
+        "Hot dog with baked chips"
+      ],
+      "sides": [
+        "Refried beans",
+        "Lettuce & tomato salad"
+      ],
+      "fruit": [
+        "Assorted fresh fruit",
+        "Mandarin oranges"
+      ]
+    },
+    "2026-11-18": {
+      "mains": [
+        "Chicken smackers with dinner roll",
+        "Bean & cheese burrito with cheese sauce"
+      ],
+      "sides": [
+        "Baby carrots",
+        "Seasoned green beans"
+      ],
+      "fruit": [
+        "Pineapple tidbits",
+        "Assorted fruit cup"
+      ]
+    },
+    "2026-11-19": {
+      "mains": [
+        "Cheeseburger sliders"
+      ],
+      "sides": [
+        "Tater tots",
+        "California blend vegetables"
+      ],
+      "fruit": [
+        "Assorted fruit cups",
+        "100% fruit juice"
+      ]
+    },
+    "2026-11-20": {
+      "mains": [
+        "Cheesy pull-aparts"
+      ],
+      "sides": [
+        "Marinara sauce",
+        "Roasted zucchini",
+        "Golden corn"
+      ],
+      "fruit": [
+        "Craisins",
+        "Assorted fruit cups"
+      ]
+    },
+    "2026-11-30": {
+      "mains": [
+        "Artisan chicken tenders with dinner roll",
+        "Corn dog with Sun Chips"
+      ],
+      "sides": [
+        "Buttery mashed potatoes",
+        "Steamed broccoli"
+      ],
+      "fruit": [
+        "Assorted fruit cups",
+        "Diced pears"
+      ]
+    }
+  }
+}

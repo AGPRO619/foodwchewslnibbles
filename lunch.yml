@@ -1,0 +1,46 @@
+name: PSJA Good Eats
+on:
+  schedule:
+    - cron: '0 6 * * 1-5'
+      timezone: 'America/Chicago'
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'post or preview'
+        type: choice
+        options: [preview, post]
+        default: preview
+      lunch_date:
+        description: 'YYYY-MM-DD (blank = today)'
+        required: false
+      override_bears:
+        description: 'good, bad, mid, unrated (blank = automatic)'
+        required: false
+      override_tstem:
+        description: 'good, bad, mid, unrated (blank = automatic)'
+        required: false
+      edit_message_id:
+        description: 'Existing Discord message ID to edit (optional)'
+        required: false
+permissions:
+  contents: read
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Send lunch report
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_CHANNEL_ID: ${{ vars.DISCORD_CHANNEL_ID }}
+          PING_BEARS: ${{ vars.PING_BEARS }}
+          PING_TSTEM: ${{ vars.PING_TSTEM }}
+          ACTION: ${{ inputs.action || 'post' }}
+          LUNCH_DATE: ${{ inputs.lunch_date }}
+          OVERRIDE_BEARS: ${{ inputs.override_bears }}
+          OVERRIDE_TSTEM: ${{ inputs.override_tstem }}
+          EDIT_MESSAGE_ID: ${{ inputs.edit_message_id }}
+        run: python bot.py
