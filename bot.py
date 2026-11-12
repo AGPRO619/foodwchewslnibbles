@@ -60,11 +60,31 @@ def verdict(mains):
     if votes and all(x=='bad' for x in votes): return '💀 BAD EATS'
     return '❓ NOT RATED'
 
-def request(method,path,payload=None):
-    data=json.dumps(payload).encode() if payload is not None else None
-    req=urllib.request.Request('https://discord.com/api/v10'+path,data=data,method=method,headers={'Authorization':'Bot '+TOKEN,'Content-Type':'application/json','User-Agent':'PSJA-Good-Eats (1.0)'})
-    with urllib.request.urlopen(req,timeout=25) as r:
-        return json.load(r)
+
+def request(method, path, payload=None):
+    import os
+    import json
+    import urllib.request
+
+    token = os.environ["DISCORD_BOT_TOKEN"]
+
+    url = "https://discord.com/api/v10" + path
+    data = json.dumps(payload).encode("utf-8") if payload is not None else None
+
+    req = urllib.request.Request(
+        url,
+        data=data,
+        headers={
+            "Authorization": f"Bot {token}",
+            "Content-Type": "application/json",
+            "User-Agent": "PSJA-Good-Eats/1.0"
+        },
+        method=method.upper()
+    )
+
+    with urllib.request.urlopen(req, timeout=25) as response:
+        return json.load(response)
+
 
 def main():
     now=datetime.now(ZoneInfo('America/Chicago'))
