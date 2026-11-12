@@ -47,7 +47,7 @@ def rating(food):
     matches=[]
     for name,terms in aliases.items():
         if any(term in f for term in terms):
-            matches.append((max(len(t) for t in terms if t in f),RATINGS[name]))
+            matches.append((max(len(t) for t in terms if t in f), RATINGS.get(name, RATINGS.get(name.title(), 'unrated'))))
     if not matches:
         for name,value in RATINGS.items():
             if name.lower() in f: matches.append((len(name),value))
